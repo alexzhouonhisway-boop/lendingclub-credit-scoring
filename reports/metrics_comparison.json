@@ -1,0 +1,12 @@
+{
+  "logistic_v2": {
+    "auc_test": 0.6586,
+    "ks_test": 0.2296
+  },
+  "xgboost": {
+    "auc_train": 0.6838,
+    "auc_test": 0.6721,
+    "ks_train": 0.2657,
+    "ks_test": 0.2495
+  }
+}

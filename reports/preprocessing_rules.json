@@ -1,0 +1,157 @@
+{
+  "clip_limits": {
+    "annual_inc": [
+      18000.0,
+      250000.0
+    ],
+    "dti": [
+      2.1,
+      34.8
+    ],
+    "revol_bal": [
+      508.90999999999985,
+      80964.09
+    ],
+    "revol_util": [
+      null,
+      102.2
+    ],
+    "open_acc": [
+      null,
+      37.0
+    ],
+    "total_acc": [
+      null,
+      72.0
+    ],
+    "credit_hist_months": [
+      null,
+      587.0
+    ]
+  },
+  "median_fill": {
+    "emp_length_yrs": 6.0,
+    "mths_since_last_delinq": 31.0,
+    "mths_since_last_record": 75.0,
+    "dti": 16.8,
+    "revol_util": 56.1
+  },
+  "cap_at_2": [
+    "delinq_2yrs",
+    "pub_rec",
+    "pub_rec_bankruptcies"
+  ],
+  "merge_categories": {
+    "purpose": {
+      "renewable_energy": "other",
+      "wedding": "other"
+    },
+    "home_ownership": {
+      "ANY": "OWN"
+    }
+  },
+  "logistic_v2_features": [
+    "loan_amnt",
+    "emp_length_yrs",
+    "annual_inc",
+    "dti",
+    "fico",
+    "delinq_2yrs",
+    "inq_last_6mths",
+    "mths_since_last_delinq",
+    "mths_since_last_record",
+    "total_acc",
+    "pub_rec",
+    "pub_rec_bankruptcies",
+    "revol_bal",
+    "revol_util",
+    "credit_hist_months",
+    "emp_length_missing",
+    "has_delinq_record",
+    "purpose_credit_card",
+    "purpose_debt_consolidation",
+    "purpose_home_improvement",
+    "purpose_house",
+    "purpose_major_purchase",
+    "purpose_medical",
+    "purpose_moving",
+    "purpose_other",
+    "purpose_small_business",
+    "purpose_vacation",
+    "home_ownership_OWN",
+    "home_ownership_RENT",
+    "verification_status_Source Verified",
+    "verification_status_Verified",
+    "initial_list_status_w"
+  ],
+  "scaler_v2": {
+    "mean": {
+      "loan_amnt": 12616.856121098741,
+      "emp_length_yrs": 5.982102117174667,
+      "annual_inc": 70837.52096063759,
+      "dti": 17.263989779156777,
+      "fico": 695.4370931435177,
+      "delinq_2yrs": 0.25574161951694346,
+      "inq_last_6mths": 0.7623159639836953,
+      "mths_since_last_delinq": 32.395114680294455,
+      "mths_since_last_record": 74.92249954371236,
+      "total_acc": 24.902065462067288,
+      "pub_rec": 0.18867494068260632,
+      "pub_rec_bankruptcies": 0.1334869501733893,
+      "revol_bal": 14670.743322990813,
+      "revol_util": 55.3749384011681,
+      "credit_hist_months": 193.33583150818276,
+      "emp_length_missing": 0.05567089493216524,
+      "has_delinq_record": 0.48196523088154775,
+      "purpose_credit_card": 0.25171868345805193,
+      "purpose_debt_consolidation": 0.5794358763764678,
+      "purpose_home_improvement": 0.053587181359128794,
+      "purpose_house": 0.0038176066192127517,
+      "purpose_major_purchase": 0.01793970919267506,
+      "purpose_medical": 0.01008775932347752,
+      "purpose_moving": 0.006460272555819189,
+      "purpose_other": 0.05167077325546024,
+      "purpose_small_business": 0.01006494494129099,
+      "purpose_vacation": 0.006034404088337288,
+      "home_ownership_OWN": 0.09577857881608566,
+      "home_ownership_RENT": 0.4232486159274807,
+      "verification_status_Source Verified": 0.3097698789316785,
+      "verification_status_Verified": 0.3168271278213786,
+      "initial_list_status_w": 0.3995939039970798
+    },
+    "scale": {
+      "loan_amnt": 7660.616147966826,
+      "emp_length_yrs": 3.527802835105375,
+      "annual_inc": 40577.1647510158,
+      "dti": 7.828239749623545,
+      "fico": 29.76136937634461,
+      "delinq_2yrs": 0.5650865028049908,
+      "inq_last_6mths": 1.0267599052189977,
+      "mths_since_last_delinq": 15.13840459190382,
+      "mths_since_last_record": 11.623626335327584,
+      "total_acc": 11.560985730528387,
+      "pub_rec": 0.4473901960033969,
+      "pub_rec_bankruptcies": 0.356710920591772,
+      "revol_bal": 13268.802801182395,
+      "revol_util": 22.96809327998626,
+      "credit_hist_months": 89.54736915578388,
+      "emp_length_missing": 0.2292850766831916,
+      "has_delinq_record": 0.4996746412445244,
+      "purpose_credit_card": 0.43400044683870664,
+      "purpose_debt_consolidation": 0.4936496141437796,
+      "purpose_home_improvement": 0.22520123301863296,
+      "purpose_house": 0.0616687319385902,
+      "purpose_major_purchase": 0.13273234732632927,
+      "purpose_medical": 0.09992995764688943,
+      "purpose_moving": 0.08011577519018162,
+      "purpose_other": 0.22136147913908383,
+      "purpose_small_business": 0.09981804358240935,
+      "purpose_vacation": 0.07744669170233127,
+      "home_ownership_OWN": 0.2942873470879381,
+      "home_ownership_RENT": 0.49407410885711533,
+      "verification_status_Source Verified": 0.4623986386640122,
+      "verification_status_Verified": 0.4652393995545029,
+      "initial_list_status_w": 0.4898148791997365
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "logistic_v2": {
+    "auc_train": 0.654,
+    "auc_test": 0.6586,
+    "ks_train": 0.2239,
+    "ks_test": 0.2296,
+    "features": [
+      "loan_amnt",
+      "emp_length_yrs",
+      "annual_inc",
+      "dti",
+      "fico",
+      "delinq_2yrs",
+      "inq_last_6mths",
+      "mths_since_last_delinq",
+      "mths_since_last_record",
+      "total_acc",
+      "pub_rec",
+      "pub_rec_bankruptcies",
+      "revol_bal",
+      "revol_util",
+      "credit_hist_months",
+      "emp_length_missing",
+      "has_delinq_record",
+      "purpose_credit_card",
+      "purpose_debt_consolidation",
+      "purpose_home_improvement",
+      "purpose_house",
+      "purpose_major_purchase",
+      "purpose_medical",
+      "purpose_moving",
+      "purpose_other",
+      "purpose_small_business",
+      "purpose_vacation",
+      "home_ownership_OWN",
+      "home_ownership_RENT",
+      "verification_status_Source Verified",
+      "verification_status_Verified",
+      "initial_list_status_w"
+    ]
+  }
+}
