@@ -1,0 +1,7 @@
+data/
+*.parquet
+*.csv
+!reports/*.csv
+*.gz
+.ipynb_checkpoints/
+notes/
